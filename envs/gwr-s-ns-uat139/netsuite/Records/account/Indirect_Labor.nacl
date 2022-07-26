@@ -1,0 +1,13 @@
+netsuite.account Indirect_Labor@s {
+  acctType = "_expense"
+  acctName = "Indirect Labor"
+  includeChildren = true
+  generalRate = "_average"
+  cashFlowRate = "_average"
+  isInactive = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  revalue = false
+  identifier = "Indirect Labor"
+}

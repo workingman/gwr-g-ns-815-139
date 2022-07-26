@@ -1,0 +1,11 @@
+type netsuite.classTranslationList {
+  annotations {
+    hidden_string source {
+    }
+  }
+  "List<netsuite.classTranslation>" classTranslation {
+  }
+  boolean replaceAll {
+    isAttribute = true
+  }
+}

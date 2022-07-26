@@ -1,0 +1,172 @@
+netsuite.customlist customlist_flo_event_type {
+  scriptid = "customlist_flo_event_type"
+  isinactive = false
+  ismatrixoption = false
+  isordered = true
+  name = "Event Type"
+  customvalues = {
+    customvalue = {
+      value_1_t1049933_417 = {
+        scriptid = "value_1_t1049933_417"
+        abbreviation = "A"
+        isinactive = false
+        value = "Approve"
+        index = 0
+      }
+      value_2_t1049933_417 = {
+        scriptid = "value_2_t1049933_417"
+        abbreviation = "C"
+        isinactive = false
+        value = "Cancel"
+        index = 1
+      }
+      value_3_t1049933_417 = {
+        scriptid = "value_3_t1049933_417"
+        abbreviation = "C"
+        isinactive = false
+        value = "Change Password"
+        index = 2
+      }
+      value_4_t1049933_417 = {
+        scriptid = "value_4_t1049933_417"
+        abbreviation = "C"
+        isinactive = false
+        value = "Copy"
+        index = 3
+      }
+      value_5_t1049933_417 = {
+        scriptid = "value_5_t1049933_417"
+        abbreviation = "C"
+        isinactive = false
+        value = "Create"
+        index = 4
+      }
+      value_6_t1049933_417 = {
+        scriptid = "value_6_t1049933_417"
+        abbreviation = "D"
+        isinactive = false
+        value = "Delete"
+        index = 5
+      }
+      value_7_t1049933_417 = {
+        scriptid = "value_7_t1049933_417"
+        abbreviation = "D"
+        isinactive = false
+        value = "Direct List Edit"
+        index = 6
+      }
+      value_8_t1049933_417 = {
+        scriptid = "value_8_t1049933_417"
+        abbreviation = "D"
+        isinactive = false
+        value = "Drop Ship"
+        index = 7
+      }
+      value_9_t1049933_417 = {
+        scriptid = "value_9_t1049933_417"
+        abbreviation = "E"
+        isinactive = false
+        value = "Edit"
+        index = 8
+      }
+      value_10_t1049933_417 = {
+        scriptid = "value_10_t1049933_417"
+        abbreviation = "E"
+        isinactive = false
+        value = "Edit Forecast"
+        index = 9
+      }
+      value_11_t1049933_417 = {
+        scriptid = "value_11_t1049933_417"
+        abbreviation = "E"
+        isinactive = false
+        value = "Email"
+        index = 10
+      }
+      value_12_t1049933_417 = {
+        scriptid = "value_12_t1049933_417"
+        abbreviation = "M"
+        isinactive = false
+        value = "Mark Complete"
+        index = 11
+      }
+      value_13_t1049933_417 = {
+        scriptid = "value_13_t1049933_417"
+        abbreviation = "O"
+        isinactive = false
+        value = "Order Items"
+        index = 12
+      }
+      value_14_t1049933_417 = {
+        scriptid = "value_14_t1049933_417"
+        abbreviation = "P"
+        isinactive = false
+        value = "Pack"
+        index = 13
+      }
+      value_15_t1049933_417 = {
+        scriptid = "value_15_t1049933_417"
+        abbreviation = "P"
+        isinactive = false
+        value = "Pay Bills"
+        index = 14
+      }
+      value_16_t1049933_417 = {
+        scriptid = "value_16_t1049933_417"
+        abbreviation = "P"
+        isinactive = false
+        value = "Print"
+        index = 15
+      }
+      value_17_t1049933_417 = {
+        scriptid = "value_17_t1049933_417"
+        abbreviation = "Q"
+        isinactive = false
+        value = "QuickView"
+        index = 16
+      }
+      value_18_t1049933_417 = {
+        scriptid = "value_18_t1049933_417"
+        abbreviation = "R"
+        isinactive = false
+        value = "Reassign"
+        index = 17
+      }
+      value_19_t1049933_417 = {
+        scriptid = "value_19_t1049933_417"
+        abbreviation = "R"
+        isinactive = false
+        value = "Reject"
+        index = 18
+      }
+      value_20_t1049933_417 = {
+        scriptid = "value_20_t1049933_417"
+        abbreviation = "S"
+        isinactive = false
+        value = "Ship"
+        index = 19
+      }
+      value_21_t1049933_417 = {
+        scriptid = "value_21_t1049933_417"
+        abbreviation = "S"
+        isinactive = false
+        value = "Special Order"
+        index = 20
+      }
+      value_22_t1049933_417 = {
+        scriptid = "value_22_t1049933_417"
+        abbreviation = "T"
+        isinactive = false
+        value = "Tranform"
+        index = 21
+      }
+      value_23_t1049933_417 = {
+        scriptid = "value_23_t1049933_417"
+        abbreviation = "V"
+        isinactive = false
+        value = "View"
+        index = 22
+      }
+    }
+  }
+}

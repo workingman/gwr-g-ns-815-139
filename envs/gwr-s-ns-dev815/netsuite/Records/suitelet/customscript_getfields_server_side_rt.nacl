@@ -1,0 +1,37 @@
+netsuite.suitelet customscript_getfields_server_side_rt {
+  scriptid = "customscript_getfields_server_side_rt"
+  defaultfunction = "spiderRecords"
+  isinactive = false
+  name = "Strongpoint Real Time Spider Rec Serv Sd"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 297487/FLOSpiderRecordsServerSide_realtime.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_getfields_server_side_rt = {
+        scriptid = "customdeploy_getfields_server_side_rt"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "AUDIT"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "FLO Real Time Spider Record Server Side"
+        index = 0
+      }
+    }
+  }
+  libraries = {
+    library = [
+      {
+        scriptfile = "[/SuiteBundles/Bundle 297487/FloParseRecordListingServerSide_realtime.js]"
+      },
+      {
+        scriptfile = "[/SuiteBundles/Bundle 297487/FLOTranslationLib.js]"
+      },
+    ]
+  }
+}

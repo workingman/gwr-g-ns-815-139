@@ -1,0 +1,24 @@
+type netsuite.subtab {
+  serviceid scriptid {
+    _required = true
+    isAttribute = true
+    _restriction = {
+      regex = "^custtab[0-9a-z_]+"
+    }
+  }
+  string title {
+    _required = true
+  }
+  netsuite.generic_tab_type tabtype {
+    _required = true
+  }
+  string parent {
+  }
+  string _lastfetchtime {
+    _hidden_value = true
+  }
+  string application_id {
+  }
+  boolean titleTranslate {
+  }
+}

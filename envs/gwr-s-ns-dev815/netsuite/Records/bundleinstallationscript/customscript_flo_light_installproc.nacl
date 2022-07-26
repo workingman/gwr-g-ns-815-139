@@ -1,0 +1,30 @@
+netsuite.bundleinstallationscript customscript_flo_light_installproc {
+  scriptid = "customscript_flo_light_installproc"
+  afterinstallfunction = "createLight"
+  afterupdatefunction = "updateLight"
+  isinactive = false
+  name = "Strongpoint Light Install Proc"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = "[/SuiteBundles/Bundle 297487/FLOLightBundleInstall.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_flo_light_installproc = {
+        scriptid = "customdeploy_flo_light_installproc"
+        isdeployed = true
+        loglevel = "AUDIT"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        title = "Strongpoint Light Install Proc"
+        index = 0
+      }
+    }
+  }
+  libraries = {
+    library = [
+      {
+        scriptfile = "[/SuiteBundles/Bundle 297487/FLOInstallProc.js]"
+      },
+    ]
+  }
+}

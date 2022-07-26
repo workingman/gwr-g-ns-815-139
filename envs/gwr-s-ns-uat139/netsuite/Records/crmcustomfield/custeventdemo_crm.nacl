@@ -1,0 +1,24 @@
+netsuite.crmcustomfield custeventdemo_crm {
+  scriptid = "custeventdemo_crm"
+  accesslevel = "2"
+  appliestoevent = false
+  appliestophonecall = false
+  appliestoprojecttask = false
+  appliestotask = false
+  applyformatting = false
+  availableexternally = false
+  checkspelling = false
+  defaultchecked = false
+  displaytype = "NORMAL"
+  encryptatrest = false
+  fieldtype = "PHONE"
+  globalsearch = false
+  isformula = false
+  ismandatory = false
+  isparent = false
+  label = "demo_crm"
+  searchlevel = "2"
+  showhierarchy = false
+  showinlist = false
+  storevalue = true
+}

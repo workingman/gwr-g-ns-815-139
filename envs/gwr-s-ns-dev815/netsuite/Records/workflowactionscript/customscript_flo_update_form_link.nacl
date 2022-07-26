@@ -1,0 +1,27 @@
+netsuite.workflowactionscript customscript_flo_update_form_link {
+  scriptid = "customscript_flo_update_form_link"
+  defaultfunction = "updateFormLink"
+  description = "Removes joins between Entry/Transaction Forms and Form Fields"
+  isinactive = false
+  name = "Strongpoint Update Form Link"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 297487/FLOUpdateFormLink.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_flo_update_form_link = {
+        scriptid = "customdeploy_flo_update_form_link"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        loglevel = "AUDIT"
+        recordtype = netsuite.customrecordtype.instance.customrecord_flo_customization.scriptid
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        index = 0
+      }
+    }
+  }
+}

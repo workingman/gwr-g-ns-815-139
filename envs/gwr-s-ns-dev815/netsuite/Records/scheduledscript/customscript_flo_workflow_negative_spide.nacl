@@ -1,0 +1,60 @@
+netsuite.scheduledscript customscript_flo_workflow_negative_spide {
+  scriptid = "customscript_flo_workflow_negative_spide"
+  isinactive = false
+  name = "Strongpoint Workflow Negative Spider"
+  notifyadmins = false
+  notifyowner = true
+  scriptfile = "[/SuiteBundles/Bundle 297487/FLOCustomNegativeWrkFlwSpider.js]"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_flo_negative_wf_lastindex = {
+        scriptid = "custscript_flo_negative_wf_lastindex"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        displaywidth = 40
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "searchId"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy2 = {
+        scriptid = "customdeploy2"
+        isdeployed = true
+        loglevel = "AUDIT"
+        status = "NOTSCHEDULED"
+        title = "Strongpoint Workflow Negative Spider 2"
+        recurrence = {
+          single = {
+            startdate = "2017-05-17"
+            starttime = "01:00:00Z"
+          }
+        }
+        index = 0
+      }
+      customdeploy_flo_workflow_negative_spide = {
+        scriptid = "customdeploy_flo_workflow_negative_spide"
+        isdeployed = true
+        loglevel = "AUDIT"
+        status = "NOTSCHEDULED"
+        title = "Strongpoint Workflow Negative Spider"
+        recurrence = {
+          single = {
+            startdate = "2017-05-04"
+            starttime = "01:00:00Z"
+          }
+        }
+        index = 1
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+netsuite.suitelet customscript_flo_enterprise_suitelet {
+  scriptid = "customscript_flo_enterprise_suitelet"
+  defaultfunction = "FLOProcessAsst"
+  isinactive = false
+  name = "Strongpoint Enterprise Suitelet"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 297487/FLODocsSuitelet.js]"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_flo_entry_stage = {
+        scriptid = "custscript_flo_entry_stage"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "FLO Entry Stage"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_flo_enterprise_suitelet = {
+        scriptid = "customdeploy_flo_enterprise_suitelet"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "AUDIT"
+        status = "RELEASED"
+        title = "Strongpoint Enterprise Suitelet"
+        index = 0
+      }
+      customdeploy_flo_erd_entry = {
+        scriptid = "customdeploy_flo_erd_entry"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "AUDIT"
+        status = "RELEASED"
+        title = "Strongpoint Enterprise Suitelet - ERD"
+        index = 1
+      }
+      customdeploy_flo_erd_external_sys = {
+        scriptid = "customdeploy_flo_erd_external_sys"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "ERROR"
+        status = "RELEASED"
+        title = "Strongpoint Enterprise Suitelet - ERD External"
+        index = 2
+      }
+      customdeploy_flo_process_entry = {
+        scriptid = "customdeploy_flo_process_entry"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "AUDIT"
+        status = "RELEASED"
+        title = "Strongpoint Enterprise Suitelet - Process"
+        index = 3
+      }
+      customdeploy_flo_spider_entry = {
+        scriptid = "customdeploy_flo_spider_entry"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        isonline = false
+        loglevel = "DEBUG"
+        status = "RELEASED"
+        title = "Strongpoint Enterprise Suitelet - SPIDER"
+        index = 4
+      }
+    }
+  }
+  libraries = {
+    library = [
+      {
+        scriptfile = "[/SuiteBundles/Bundle 297487/FLOgetLicenseNumber.js]"
+      },
+      {
+        scriptfile = "[/SuiteBundles/Bundle 297487/FLOValidateLicense.js]"
+      },
+    ]
+  }
+}

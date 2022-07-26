@@ -1,0 +1,169 @@
+netsuite.savedsearch customsearch1016 {
+  scriptid = "customsearch1016"
+  definition = "764c481cea13cfec9bb54aea434639ec799b32d58d241c577774ac8f37e00bf3@GZC@2022.1.15@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "AmortizationSchedule_TEMPLATENAME"
+      FIELD_ATTRIBUTE = "STARTSWITH"
+      FIELD_TYPE = "TEXT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "pre"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "TR_Transaction_DATECREATED"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "CUSTOM"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2022-04-03 21:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+  ]
+  available_filters = [
+    {
+      SEQ_NUMBER = 1
+      FIELD_NAME = "TR_Transaction_INTERNALID"
+      FLAG_FOOTER = false
+      FLAG_FOOTER_MULTI_SELECT = false
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "AmortizationSchedule_SCHEDDATE"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "TR_Transaction_DATECREATED"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_AMORSTATUS"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_ACCOUNTINGBOOK"
+      FIELD_INDEX = 4
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_NAME"
+      FIELD_INDEX = 5
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_AMOUNT"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_DEFERREDAMOUNT"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_AMORTIZEDAMOUNT"
+      FIELD_INDEX = 8
+      FIELD_SUMMARY_TYPE = "SUM"
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_RESIDUAL"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_SRCTRANPOSTPERIOD"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_ISRECOGNIZED"
+      FIELD_INDEX = 11
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "AmortizationSchedule_LINESEQUENCENUMBER"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "TR_Transaction_NUMBER"
+      FIELD_INDEX = 13
+      FIELD_SUMMARY_TYPE = "GROUP"
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "AmortizationSchedule_SCHEDDATE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch1016"
+  FIELD_DEFAULT_NAME = "Amortization After Go Live "
+  FIELD_SEARCH_TYPE = "AmortizationSchedule"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+}

@@ -1,0 +1,39 @@
+netsuite.customlist customlist_flo_log_level {
+  scriptid = "customlist_flo_log_level"
+  isinactive = false
+  ismatrixoption = false
+  isordered = false
+  name = "Log Level"
+  customvalues = {
+    customvalue = {
+      value_2_t1049933_417 = {
+        scriptid = "value_2_t1049933_417"
+        abbreviation = "A"
+        isinactive = false
+        value = "Audit"
+        index = 0
+      }
+      value_3_t1049933_417 = {
+        scriptid = "value_3_t1049933_417"
+        abbreviation = "D"
+        isinactive = false
+        value = "Debug"
+        index = 1
+      }
+      value_4_t1049933_417 = {
+        scriptid = "value_4_t1049933_417"
+        abbreviation = "E"
+        isinactive = false
+        value = "Emergency"
+        index = 2
+      }
+      value_1_t1049933_417 = {
+        scriptid = "value_1_t1049933_417"
+        abbreviation = "E"
+        isinactive = false
+        value = "Error"
+        index = 3
+      }
+    }
+  }
+}

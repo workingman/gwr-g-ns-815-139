@@ -1,0 +1,34 @@
+netsuite.restlet customscript_uploadscriptfile {
+  scriptid = "customscript_uploadscriptfile"
+  description = '''
+by Head in the Cloud Development, Inc.
+gurus@headintheclouddev.com
+'''
+  isinactive = false
+  name = "HITC NetSuite Uploader"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 92143/upload.js]"
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy1 = {
+        scriptid = "customdeploy1"
+        allemployees = false
+        allpartners = false
+        allroles = false
+        audslctrole = "ADMINISTRATOR|FULL_ACCESS|[scriptid=customrole_hitc_uploader]"
+        isdeployed = true
+        loglevel = "ERROR"
+        status = "RELEASED"
+        title = "NetSuite Uploader"
+        index = 0
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = netsuite.role.instance.customrole_hitc_uploader.scriptid
+    },
+  ]
+}

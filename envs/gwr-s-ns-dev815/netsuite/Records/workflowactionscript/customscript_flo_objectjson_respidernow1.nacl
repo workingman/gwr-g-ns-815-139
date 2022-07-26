@@ -1,0 +1,45 @@
+netsuite.workflowactionscript customscript_flo_objectjson_respidernow1 {
+  scriptid = "customscript_flo_objectjson_respidernow1"
+  defaultfunction = "setObjectJSON_API1"
+  isinactive = false
+  name = "Strongpoint Object JSON Respider Now 1.0"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = "[/SuiteBundles/Bundle 297487/FLOSetObjectJSON_AP1_RespiderNow.js]"
+  scriptcustomfields = {
+    scriptcustomfield = {
+      custscript_flo_objsonap1_rs_custid = {
+        scriptid = "custscript_flo_objsonap1_rs_custid"
+        accesslevel = "2"
+        applyformatting = false
+        checkspelling = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "TEXT"
+        isformula = false
+        ismandatory = false
+        label = "Customization IDS"
+        searchlevel = "2"
+        storevalue = true
+        index = 0
+      }
+    }
+  }
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_flo_objectjson_respidernow1 = {
+        scriptid = "customdeploy_flo_objectjson_respidernow1"
+        allemployees = false
+        allpartners = false
+        allroles = true
+        isdeployed = true
+        loglevel = "AUDIT"
+        recordtype = "[scriptid=customrecord_flo_spider_files]"
+        runasrole = "ADMINISTRATOR"
+        status = "RELEASED"
+        index = 0
+      }
+    }
+  }
+}
