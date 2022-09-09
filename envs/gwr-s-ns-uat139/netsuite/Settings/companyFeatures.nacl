@@ -5,7 +5,7 @@ netsuite.companyFeatures {
   JOBS = true
   ADVANCEDJOBS = true
   PLANNEDWORK = false
-  JOBCOSTING = true
+  JOBCOSTING = false
   ADVANCEDPROJECTACCOUNTING = false
   ACTIVITYCODES = false
   WBS = false
@@ -84,7 +84,7 @@ netsuite.companyFeatures {
   CHARGEBASEDBILLING = true
   BILLINGACCOUNTS = false
   BILLINGWORKCENTER = true
-  ADVSUBSCRIPTIONBILLING = false
+  ADVSUBSCRIPTIONBILLING = true
   INVOICEGROUP = false
   CCTRACKING = true
   SOFTDESCRIPTORS = false
@@ -102,8 +102,8 @@ netsuite.companyFeatures {
   MERCHANDISEHIERARCHY = false
   ENHANCEDINVENTORYLOCATION = false
   PERSONALIZED_CATALOG_VIEWS = false
-  INVENTORY = false
-  MULTILOCINVT = false
+  INVENTORY = true
+  MULTILOCINVT = true
   ASSEMBLIES = false
   ADVANCEDBILLOFMATERIALS = false
   WORKORDERS = false

@@ -10,4 +10,5 @@ netsuite.account Purchases {
   ]
   revalue = false
   identifier = "Purchases"
+  inventory = false
 }

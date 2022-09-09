@@ -11,4 +11,5 @@ netsuite.account Savings {
   ]
   revalue = true
   identifier = "Savings"
+  inventory = false
 }

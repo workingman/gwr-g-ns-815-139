@@ -35,4 +35,6 @@ netsuite.transactioncolumncustomfield custcol_slt_billable {
   sourcefrom = netsuite.itemcustomfield.instance.custitem_slt_billable.scriptid
   sourcelist = "STDCOLITEM"
   storevalue = true
+  colinventoryadjustment = false
+  coltransferorder = false
 }

@@ -93,6 +93,10 @@ netsuite.role customrole_gwr_role_ar {
         permlevel = "VIEW"
       },
       {
+        permkey = "REPO_INVENTORY"
+        permlevel = "VIEW"
+      },
+      {
         permkey = "REPO_PURCHASEORDER"
         permlevel = "VIEW"
       },
@@ -211,6 +215,10 @@ netsuite.role customrole_gwr_role_ar {
       {
         permkey = "LIST_UNIT"
         permlevel = "EDIT"
+      },
+      {
+        permkey = "LIST_USAGE"
+        permlevel = "FULL"
       },
       {
         permkey = "LIST_VENDOR"

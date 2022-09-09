@@ -10,4 +10,5 @@ netsuite.account Postage___Delivery@ses {
   ]
   revalue = false
   identifier = "Postage & Delivery"
+  inventory = false
 }

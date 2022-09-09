@@ -17,8 +17,8 @@ netsuite.entitycustomfield custentity_14 {
   applyformatting = false
   availableexternally = false
   checkspelling = false
-  defaultchecked = true
-  description = "thisisafiverrtest"
+  defaultchecked = false
+  description = "descriptio12345"
   displaytype = "NORMAL"
   encryptatrest = false
   fieldtype = "CHECKBOX"

@@ -10,4 +10,5 @@ netsuite.account Contract_Payable__2@ssn {
   ]
   revalue = true
   identifier = "Contract Payable #2"
+  inventory = false
 }

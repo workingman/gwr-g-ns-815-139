@@ -10,4 +10,5 @@ netsuite.account Capital_Stock@s {
   ]
   revalue = false
   identifier = "Capital Stock"
+  inventory = false
 }

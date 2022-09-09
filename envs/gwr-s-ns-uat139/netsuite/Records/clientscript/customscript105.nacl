@@ -2,9 +2,9 @@ netsuite.clientscript customscript105 {
   scriptid = "customscript105"
   isinactive = false
   name = "testscriptJS"
-  notifyadmins = false
-  notifyowner = true
-  notifyuser = false
+  notifyadmins = true
+  notifyowner = false
+  notifyuser = true
   scriptfile = netsuite.file.instance.SuiteScripts_testScript_js@dv.path
   scriptdeployments = {
     scriptdeployment = {

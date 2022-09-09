@@ -11,4 +11,5 @@ netsuite.account Payroll {
   ]
   revalue = true
   identifier = "Payroll"
+  inventory = false
 }

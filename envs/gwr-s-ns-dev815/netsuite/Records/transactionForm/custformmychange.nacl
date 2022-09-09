@@ -431,6 +431,17 @@ netsuite.transactionForm custformmychange {
               sameRowAsPrevious = false
               index = 4
             }
+            custbody_rg_valid_forto_po = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
+              label = "Validated Required Fields for FortoX"
+              visible = false
+              mandatory = false
+              displayType = "INLINETEXT"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 5
+            }
           }
           index = 0
         }
@@ -1874,10 +1885,20 @@ netsuite.transactionForm custformmychange {
       CUSTOMROLE42 = {
         id = "CUSTOMROLE42"
         preferred = false
-        index = 18
+        index = 20
       }
       CUSTOMROLE43 = {
         id = "CUSTOMROLE43"
+        preferred = false
+        index = 21
+      }
+      customrole1178 = {
+        id = netsuite.role.instance.customrole1178.scriptid
+        preferred = false
+        index = 18
+      }
+      customrole_simon_test = {
+        id = netsuite.role.instance.customrole_simon_test.scriptid
         preferred = false
         index = 19
       }

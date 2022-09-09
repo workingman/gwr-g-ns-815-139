@@ -10,4 +10,5 @@ netsuite.account Taxes___Licenses_Other@sesb {
   ]
   revalue = false
   identifier = "Taxes & Licenses-Other"
+  inventory = false
 }

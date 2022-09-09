@@ -10,4 +10,5 @@ netsuite.account Less_Long_Term_Portion@sbs {
   ]
   revalue = true
   identifier = "Less Long-Term Portion"
+  inventory = false
 }

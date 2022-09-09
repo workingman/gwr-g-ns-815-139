@@ -10,4 +10,5 @@ netsuite.account Supplies_Expense@s {
   ]
   revalue = false
   identifier = "Supplies Expense"
+  inventory = false
 }

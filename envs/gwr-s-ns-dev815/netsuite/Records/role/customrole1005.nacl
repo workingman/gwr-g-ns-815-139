@@ -25,6 +25,14 @@ netsuite.role customrole1005 {
         permlevel = "FULL"
       },
       {
+        permkey = "LIST_ACCOUNT"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "LIST_CONTACT"
+        permlevel = "VIEW"
+      },
+      {
         permkey = "LIST_CUSTPROFILE"
         permlevel = "FULL"
       },
@@ -98,6 +106,10 @@ netsuite.role customrole1005 {
       },
       {
         permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_CUSTOTHERFIELD"
         permlevel = "FULL"
       },
       {

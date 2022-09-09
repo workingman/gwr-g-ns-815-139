@@ -38,4 +38,6 @@ netsuite.transactionbodycustomfield custbody_slt_sales_order_type {
   showinlist = false
   storevalue = true
   subtab = "TRANSACTIONMAIN"
+  bodyinventoryadjustment = false
+  bodytransferorder = false
 }

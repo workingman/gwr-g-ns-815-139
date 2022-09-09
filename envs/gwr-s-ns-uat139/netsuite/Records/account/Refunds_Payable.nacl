@@ -10,4 +10,5 @@ netsuite.account Refunds_Payable@s {
   ]
   revalue = true
   identifier = "Refunds Payable"
+  inventory = false
 }

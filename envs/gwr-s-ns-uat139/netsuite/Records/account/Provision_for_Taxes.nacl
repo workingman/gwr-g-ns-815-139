@@ -10,4 +10,5 @@ netsuite.account Provision_for_Taxes@s {
   ]
   revalue = false
   identifier = "Provision for Taxes"
+  inventory = false
 }

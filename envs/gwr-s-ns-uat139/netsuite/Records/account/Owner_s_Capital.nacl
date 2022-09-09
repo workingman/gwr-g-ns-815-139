@@ -10,4 +10,5 @@ netsuite.account Owner_s_Capital@ts {
   ]
   revalue = false
   identifier = "Owner's Capital"
+  inventory = false
 }

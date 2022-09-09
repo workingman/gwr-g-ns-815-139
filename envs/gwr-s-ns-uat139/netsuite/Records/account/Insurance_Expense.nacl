@@ -10,4 +10,5 @@ netsuite.account Insurance_Expense@s {
   ]
   revalue = false
   identifier = "Insurance Expense"
+  inventory = false
 }

@@ -1,0 +1,26 @@
+netsuite.workflowactionscript customscript_aw_wa_disable_fields {
+  scriptid = "customscript_aw_wa_disable_fields"
+  description = "GWR Disable form fields."
+  isinactive = false
+  name = "GWR Amp AppWrap | WA Disable Fields"
+  notifyadmins = false
+  notifyowner = false
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_gwr_amp_AppWrap_WA_DisableFields_js@ddduuv.path
+  scriptdeployments = {
+    scriptdeployment = {
+      customdeploy_aw_wa_disable_fields = {
+        scriptid = "customdeploy_aw_wa_disable_fields"
+        allemployees = false
+        allpartners = false
+        allroles = false
+        isdeployed = true
+        loglevel = "DEBUG"
+        recordtype = "SALESORDER"
+        runasrole = "ADMINISTRATOR"
+        status = "TESTING"
+        index = 0
+      }
+    }
+  }
+}

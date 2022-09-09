@@ -29,4 +29,5 @@ netsuite.itemcustomfield custitemdp_item_field_4 {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  appliestoinventory = false
 }

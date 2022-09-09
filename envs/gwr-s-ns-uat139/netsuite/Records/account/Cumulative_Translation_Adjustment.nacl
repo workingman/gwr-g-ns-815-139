@@ -10,4 +10,5 @@ netsuite.account Cumulative_Translation_Adjustment@s {
   ]
   revalue = false
   identifier = "Cumulative Translation Adjustment"
+  inventory = false
 }

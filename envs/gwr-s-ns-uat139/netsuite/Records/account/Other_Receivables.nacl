@@ -10,4 +10,5 @@ netsuite.account Other_Receivables@s {
   ]
   revalue = false
   identifier = "Other Receivables"
+  inventory = false
 }

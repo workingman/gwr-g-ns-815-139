@@ -11,4 +11,5 @@ netsuite.account Automobile_Expense_Gas___Oil@suses {
   ]
   revalue = false
   identifier = "Automobile Expense_Gas & Oil"
+  inventory = false
 }

@@ -32,4 +32,6 @@ netsuite.transactioncolumncustomfield custcoltransactionterms {
   searchlevel = "2"
   showhierarchy = false
   storevalue = true
+  colinventoryadjustment = false
+  coltransferorder = false
 }

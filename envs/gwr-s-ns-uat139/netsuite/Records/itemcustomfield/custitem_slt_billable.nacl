@@ -31,4 +31,5 @@ netsuite.itemcustomfield custitem_slt_billable {
   showinlist = false
   storevalue = true
   subtab = "ITEMMAIN"
+  appliestoinventory = false
 }

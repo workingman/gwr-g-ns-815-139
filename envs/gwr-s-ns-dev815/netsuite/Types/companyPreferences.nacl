@@ -63,10 +63,7 @@ settings netsuite.companyPreferences {
     label = "Execute SuiteScript 2.x Server Scripts as"
     type = "select"
   }
-  boolean custscript_lsa_primary_sales_rep {
-    label = "Track Only Primary Sales Rep Activities"
-    type = "checkbox"
-  }
+  
   netsuite.selectOption CALENDARSYSTEM {
     label = "Calendar System"
     type = "select"
@@ -83,14 +80,8 @@ settings netsuite.companyPreferences {
     label = "Bank import schedule minimum time of day"
     type = "integer"
   }
-  boolean custscript_lsa_message {
-    label = "Messages"
-    type = "checkbox"
-  }
-  boolean custscript_lsa_marketingcampaign {
-    label = "Marketing Campaign"
-    type = "checkbox"
-  }
+  
+  
   number MAXDROPDOWNSIZE {
     label = "Maximum Entries in Dropdowns"
     type = "integer"
@@ -139,14 +130,8 @@ settings netsuite.companyPreferences {
     label = "Allow User to Change to Pseudo Language"
     type = "checkbox"
   }
-  boolean custscript_lsa_enable_manual_update {
-    label = "Enable LSA Manual Update"
-    type = "checkbox"
-  }
-  number custscript_lsa_activity_days_filter {
-    label = "Activity Duration Filter (days)"
-    type = "integer"
-  }
+  
+  
   number MAXREPORTROWS {
     label = "Maximum number of rows allowed in a report"
     type = "integer"
@@ -227,18 +212,12 @@ settings netsuite.companyPreferences {
     label = "Max Number of Years for Non-Evergreen Subscription"
     type = "integer"
   }
-  boolean custscript_lsa_task_completed {
-    label = "Track Only Completed Tasks"
-    type = "checkbox"
-  }
+  
   number LISTSEGMENTSIZE {
     label = "Number of Rows in List Segments"
     type = "integer"
   }
-  boolean custscript_lsa_task {
-    label = "Tasks"
-    type = "checkbox"
-  }
+  
   boolean SHOWLISTONERESULT {
     label = "Show List When Only One Result"
     type = "checkbox"
@@ -271,26 +250,17 @@ settings netsuite.companyPreferences {
     label = "TEMPORARY: Allow creating polymorphic employees"
     type = "checkbox"
   }
-  boolean custscript_lsa_event_completed {
-    label = "Track Only Completed Events"
-    type = "checkbox"
-  }
+  
   boolean DELAYLOADINGSUBLISTS {
     label = "Delay Loading of Sublists"
     type = "checkbox"
   }
-  boolean custscript_lsa_phonecall_completed {
-    label = "Track Only Completed Phone Calls"
-    type = "checkbox"
-  }
+  
   number NEWUSERLINKEXPIRATION {
     label = "User Registration Link Expiration In Hours"
     type = "integer"
   }
-  boolean custscript_lsa_task_note {
-    label = "Notes"
-    type = "checkbox"
-  }
+  
   netsuite.selectOption NUMBERFORMAT {
     label = "Number Format"
     type = "select"
@@ -299,10 +269,7 @@ settings netsuite.companyPreferences {
     label = "Maximum Planned Time Entries Per Project Task Assignment"
     type = "integer"
   }
-  boolean custscript_lsa_task_event {
-    label = "Events"
-    type = "checkbox"
-  }
+  
   netsuite.selectOption CUSTOM_PRIVATE_LOGIN_PAGE {
     label = "Customer Center Login Page"
     type = "select"
@@ -423,10 +390,7 @@ settings netsuite.companyPreferences {
     label = "Show Display Name with Item Codes"
     type = "checkbox"
   }
-  boolean custscript_lsa_phonecall {
-    label = "Phone calls"
-    type = "checkbox"
-  }
+  
   boolean TIMESELECTORSUSEFIRSTFISCALMONTH {
     label = "Time Selectors Use Fiscal Calendars Based on First Month"
     type = "checkbox"

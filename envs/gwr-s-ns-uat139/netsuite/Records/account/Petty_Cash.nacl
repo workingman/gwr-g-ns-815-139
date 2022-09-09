@@ -11,4 +11,5 @@ netsuite.account Petty_Cash@s {
   ]
   revalue = true
   identifier = "Petty Cash"
+  inventory = false
 }

@@ -30,4 +30,5 @@ netsuite.entitycustomfield custentity6 {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  description = "check"
 }

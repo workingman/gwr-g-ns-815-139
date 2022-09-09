@@ -10,4 +10,5 @@ netsuite.account Freight___Delivery@ses {
   ]
   revalue = false
   identifier = "Freight & Delivery"
+  inventory = false
 }

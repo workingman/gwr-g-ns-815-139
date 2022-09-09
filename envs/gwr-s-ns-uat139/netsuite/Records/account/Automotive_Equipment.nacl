@@ -10,4 +10,5 @@ netsuite.account Automotive_Equipment@s {
   ]
   revalue = false
   identifier = "Automotive Equipment"
+  inventory = false
 }

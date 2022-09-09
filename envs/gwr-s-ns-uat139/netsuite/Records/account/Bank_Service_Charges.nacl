@@ -10,4 +10,5 @@ netsuite.account Bank_Service_Charges@s {
   ]
   revalue = false
   identifier = "Bank Service Charges"
+  inventory = false
 }

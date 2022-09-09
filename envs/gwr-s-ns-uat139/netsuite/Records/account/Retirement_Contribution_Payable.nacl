@@ -10,4 +10,5 @@ netsuite.account Retirement_Contribution_Payable@s {
   ]
   revalue = true
   identifier = "Retirement Contribution Payable"
+  inventory = false
 }

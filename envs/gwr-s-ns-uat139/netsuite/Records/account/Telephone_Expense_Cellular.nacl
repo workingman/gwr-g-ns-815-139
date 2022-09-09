@@ -11,4 +11,5 @@ netsuite.account Telephone_Expense_Cellular@su {
   ]
   revalue = false
   identifier = "Telephone Expense_Cellular"
+  inventory = false
 }

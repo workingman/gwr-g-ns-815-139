@@ -10,4 +10,5 @@ netsuite.account Finance_Charge_Income@s {
   ]
   revalue = false
   identifier = "Finance Charge Income"
+  inventory = false
 }

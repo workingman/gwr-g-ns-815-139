@@ -10,4 +10,5 @@ netsuite.account Rent_Expense@s {
   ]
   revalue = false
   identifier = "Rent Expense"
+  inventory = false
 }

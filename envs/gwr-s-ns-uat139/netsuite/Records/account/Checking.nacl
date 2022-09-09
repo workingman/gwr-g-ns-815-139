@@ -11,4 +11,5 @@ netsuite.account Checking {
   ]
   revalue = true
   identifier = "Checking"
+  inventory = false
 }

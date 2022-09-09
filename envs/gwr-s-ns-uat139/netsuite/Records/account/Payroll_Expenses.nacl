@@ -10,4 +10,5 @@ netsuite.account Payroll_Expenses@s {
   ]
   revalue = false
   identifier = "Payroll Expenses"
+  inventory = false
 }

@@ -4,10 +4,11 @@ netsuite.account Job_Cost_Variance@s {
   includeChildren = true
   generalRate = "_current"
   cashFlowRate = "_average"
-  isInactive = false
+  isInactive = true
   subsidiaryList = [
     netsuite.subsidiary.instance.Parent_Company@s,
   ]
   revalue = false
   identifier = "Job Cost Variance"
+  inventory = false
 }

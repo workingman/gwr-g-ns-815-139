@@ -10,4 +10,5 @@ netsuite.account Accrued_Vacation___Sick_Pay@ssess {
   ]
   revalue = true
   identifier = "Accrued Vacation & Sick Pay"
+  inventory = false
 }

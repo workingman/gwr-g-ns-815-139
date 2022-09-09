@@ -10,4 +10,5 @@ netsuite.account Income_Taxes_Payable@s {
   ]
   revalue = true
   identifier = "Income Taxes Payable"
+  inventory = false
 }

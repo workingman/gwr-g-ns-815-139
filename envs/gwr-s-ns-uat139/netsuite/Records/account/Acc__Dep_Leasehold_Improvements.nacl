@@ -10,4 +10,5 @@ netsuite.account Acc__Dep_Leasehold_Improvements@vsbs {
   ]
   revalue = false
   identifier = "Acc. Dep-Leasehold Improvements"
+  inventory = false
 }

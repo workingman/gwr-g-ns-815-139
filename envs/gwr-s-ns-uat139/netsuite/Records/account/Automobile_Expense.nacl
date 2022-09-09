@@ -10,4 +10,5 @@ netsuite.account Automobile_Expense@s {
   ]
   revalue = false
   identifier = "Automobile Expense"
+  inventory = false
 }

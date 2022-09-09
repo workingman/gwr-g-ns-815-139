@@ -10,4 +10,5 @@ netsuite.account Line_of_Credit_Payable@s {
   ]
   revalue = true
   identifier = "Line of Credit Payable"
+  inventory = false
 }

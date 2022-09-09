@@ -4,10 +4,11 @@ netsuite.account Direct_Labor__System_@ssjk {
   includeChildren = true
   generalRate = "_average"
   cashFlowRate = "_average"
-  isInactive = false
+  isInactive = true
   subsidiaryList = [
     netsuite.subsidiary.instance.Parent_Company@s,
   ]
   revalue = false
   identifier = "Direct Labor (System)"
+  inventory = false
 }

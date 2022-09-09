@@ -58,6 +58,12 @@ netsuite {
             "custpubdashboard_26_t1049933_589",
           ]
         },
+        {
+          name = "advancedpdftemplate"
+          ids = [
+            "custtmpl_gwr_defunct1",
+          ]
+        },
       ]
     }
   }

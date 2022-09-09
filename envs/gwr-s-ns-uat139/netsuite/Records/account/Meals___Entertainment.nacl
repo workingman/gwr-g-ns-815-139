@@ -10,4 +10,5 @@ netsuite.account Meals___Entertainment@ses {
   ]
   revalue = false
   identifier = "Meals & Entertainment"
+  inventory = false
 }

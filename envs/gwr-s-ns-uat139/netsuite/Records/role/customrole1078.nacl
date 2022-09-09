@@ -25,6 +25,10 @@ netsuite.role customrole1078 {
         permlevel = "VIEW"
       },
       {
+        permkey = "TRAN_INVADJST"
+        permlevel = "EDIT"
+      },
+      {
         permkey = "TRAN_AUTO_CASH"
         permlevel = "FULL"
       },
@@ -38,6 +42,18 @@ netsuite.role customrole1078 {
       },
       {
         permkey = "TRAN_CASHSALE"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_CHARGE"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_GENERATECHARGES"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "TRAN_CHARGERULE"
         permlevel = "EDIT"
       },
       {
@@ -82,6 +98,10 @@ netsuite.role customrole1078 {
       },
       {
         permkey = "TRAN_DEPAPPL"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_INVDISTR"
         permlevel = "EDIT"
       },
       {
@@ -161,6 +181,18 @@ netsuite.role customrole1078 {
         permlevel = "EDIT"
       },
       {
+        permkey = "TRAN_INVTRNFR"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_TRNFRORD"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "TRAN_TRNFRORDAPPRV"
+        permlevel = "FULL"
+      },
+      {
         permkey = "TRAN_VENDBILLAPPRV"
         permlevel = "FULL"
       },
@@ -197,15 +229,7 @@ netsuite.role customrole1078 {
         permlevel = "VIEW"
       },
       {
-        permkey = "GRAP_AP"
-        permlevel = "VIEW"
-      },
-      {
         permkey = "REPO_AR"
-        permlevel = "VIEW"
-      },
-      {
-        permkey = "GRAP_AR"
         permlevel = "VIEW"
       },
       {
@@ -217,10 +241,6 @@ netsuite.role customrole1078 {
         permlevel = "VIEW"
       },
       {
-        permkey = "GRAP_EXP"
-        permlevel = "VIEW"
-      },
-      {
         permkey = "REPO_FINANCIALS"
         permlevel = "VIEW"
       },
@@ -229,19 +249,15 @@ netsuite.role customrole1078 {
         permlevel = "VIEW"
       },
       {
-        permkey = "GRAP_INC"
-        permlevel = "VIEW"
-      },
-      {
         permkey = "REPO_PANDL"
         permlevel = "VIEW"
       },
       {
-        permkey = "REPO_SNAPSHOTLEAD"
+        permkey = "REPO_INVENTORY"
         permlevel = "VIEW"
       },
       {
-        permkey = "GRAP_NETWORTH"
+        permkey = "REPO_SNAPSHOTLEAD"
         permlevel = "VIEW"
       },
       {
@@ -251,10 +267,6 @@ netsuite.role customrole1078 {
       {
         permkey = "REPO_PURCHASES"
         permlevel = "VIEW"
-      },
-      {
-        permkey = "REPO_RECONCILE"
-        permlevel = "EDIT"
       },
       {
         permkey = "REPO_CUSTOMIZATION"
@@ -397,6 +409,10 @@ netsuite.role customrole1078 {
         permlevel = "EDIT"
       },
       {
+        permkey = "LIST_JOB"
+        permlevel = "EDIT"
+      },
+      {
         permkey = "LIST_LOCATION"
         permlevel = "EDIT"
       },
@@ -445,6 +461,14 @@ netsuite.role customrole1078 {
         permlevel = "FULL"
       },
       {
+        permkey = "LIST_PROJECTTASK"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "LIST_PROJECTTEMPLATE"
+        permlevel = "VIEW"
+      },
+      {
         permkey = "LIST_RESOURCE"
         permlevel = "CREATE"
       },
@@ -469,6 +493,10 @@ netsuite.role customrole1078 {
         permlevel = "EDIT"
       },
       {
+        permkey = "LIST_USAGE"
+        permlevel = "FULL"
+      },
+      {
         permkey = "LIST_VENDOR"
         permlevel = "EDIT"
       },
@@ -478,10 +506,6 @@ netsuite.role customrole1078 {
       },
       {
         permkey = "ADMI_ACCOUNTINGLIST"
-        permlevel = "EDIT"
-      },
-      {
-        permkey = "ADMI_ACCOUNTING"
         permlevel = "EDIT"
       },
       {

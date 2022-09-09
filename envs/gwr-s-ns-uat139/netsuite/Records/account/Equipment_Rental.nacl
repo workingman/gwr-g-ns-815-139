@@ -10,4 +10,5 @@ netsuite.account Equipment_Rental@s {
   ]
   revalue = false
   identifier = "Equipment Rental"
+  inventory = false
 }

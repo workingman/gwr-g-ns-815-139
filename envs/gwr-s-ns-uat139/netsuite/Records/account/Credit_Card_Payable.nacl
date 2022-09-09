@@ -10,4 +10,5 @@ netsuite.account Credit_Card_Payable@s {
   ]
   revalue = true
   identifier = "Credit Card Payable"
+  inventory = false
 }

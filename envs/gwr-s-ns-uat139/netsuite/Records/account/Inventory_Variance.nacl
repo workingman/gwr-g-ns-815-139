@@ -10,4 +10,5 @@ netsuite.account Inventory_Variance@s {
   ]
   revalue = false
   identifier = "Inventory Variance"
+  inventory = false
 }

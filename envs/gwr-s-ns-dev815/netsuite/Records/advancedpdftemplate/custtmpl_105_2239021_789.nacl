@@ -4,7 +4,7 @@ netsuite.advancedpdftemplate custtmpl_105_2239021_789 {
   isinactive = false
   preferred = false
   printtype = "SEARCH"
-  savedsearch = "[scriptid=customsearch_lsa_contacts]"
+  savedsearch = "[SCRIPT_ID_NOT_SPECIFIED]"
   title = "Empty PDF/HTML Template 6"
   trantype = "CUSTINVC"
   content = file("netsuite/advancedpdftemplate/custtmpl_105_2239021_789.xml")

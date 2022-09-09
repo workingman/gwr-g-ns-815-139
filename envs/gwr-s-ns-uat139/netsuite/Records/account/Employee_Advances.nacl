@@ -10,4 +10,5 @@ netsuite.account Employee_Advances@s {
   ]
   revalue = false
   identifier = "Employee Advances"
+  inventory = false
 }

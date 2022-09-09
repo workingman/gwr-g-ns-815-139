@@ -35,4 +35,6 @@ netsuite.transactioncolumncustomfield custcol_slt_e2e_test {
   sourcefrom = netsuite.entitycustomfield.instance.custentity_slt_e2e_test.scriptid
   sourcelist = "STDBODYENTITY"
   storevalue = true
+  colinventoryadjustment = false
+  coltransferorder = false
 }

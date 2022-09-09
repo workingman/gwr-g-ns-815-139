@@ -10,4 +10,5 @@ netsuite.account Vendor_Return_Authorizations@s {
   ]
   revalue = false
   identifier = "Vendor Return Authorizations"
+  inventory = false
 }

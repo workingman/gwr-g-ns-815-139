@@ -10,4 +10,5 @@ netsuite.account Miscellaneous_Expense@s {
   ]
   revalue = false
   identifier = "Miscellaneous Expense"
+  inventory = false
 }

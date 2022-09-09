@@ -33,4 +33,6 @@ netsuite.transactioncolumncustomfield custcol_gwr_return_reason {
   searchlevel = "2"
   showhierarchy = false
   storevalue = true
+  colinventoryadjustment = false
+  coltransferorder = false
 }

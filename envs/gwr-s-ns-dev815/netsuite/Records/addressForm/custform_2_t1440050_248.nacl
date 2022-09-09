@@ -1,7 +1,7 @@
 netsuite.addressForm custform_2_t1440050_248 {
   scriptid = "custform_2_t1440050_248"
   standard = "STANDARDADDRESSFORM"
-  name = "My Address Form renamed again"
+  name = "Custom Address Form"
   mainFields = {
     defaultFieldGroup = {
       fields = {

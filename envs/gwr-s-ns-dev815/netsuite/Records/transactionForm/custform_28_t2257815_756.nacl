@@ -341,6 +341,17 @@ netsuite.transactionForm custform_28_t2257815_756 {
               sameRowAsPrevious = false
               index = 3
             }
+            custbody_rg_valid_forto_po = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
+              label = "Validated Required Fields for FortoX"
+              visible = false
+              mandatory = false
+              displayType = "INLINETEXT"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 4
+            }
           }
           index = 0
         }

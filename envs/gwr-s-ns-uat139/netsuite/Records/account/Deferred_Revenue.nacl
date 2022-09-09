@@ -10,4 +10,5 @@ netsuite.account Deferred_Revenue@s {
   ]
   revalue = false
   identifier = "Deferred Revenue"
+  inventory = false
 }

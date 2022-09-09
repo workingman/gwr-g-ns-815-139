@@ -4,7 +4,7 @@ netsuite.transactionForm custform_gwr_csform1 {
   name = "Custom Service Invoice"
   recordType = "INVOICE"
   inactive = false
-  preferred = true
+  preferred = false
   mainFields = {
     fieldGroup = {
       primaryinformation = {
@@ -1478,6 +1478,16 @@ netsuite.transactionForm custform_gwr_csform1 {
                     sameRowAsPrevious = false
                     index = 6
                   }
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 7
+                  }
                 }
                 index = 0
               }
@@ -1829,10 +1839,20 @@ netsuite.transactionForm custform_gwr_csform1 {
       CUSTOMROLE42 = {
         id = "CUSTOMROLE42"
         preferred = false
-        index = 18
+        index = 20
       }
       CUSTOMROLE43 = {
         id = "CUSTOMROLE43"
+        preferred = false
+        index = 21
+      }
+      customrole1178 = {
+        id = netsuite.role.instance.customrole1178.scriptid
+        preferred = false
+        index = 18
+      }
+      customrole_simon_test = {
+        id = netsuite.role.instance.customrole_simon_test.scriptid
         preferred = false
         index = 19
       }

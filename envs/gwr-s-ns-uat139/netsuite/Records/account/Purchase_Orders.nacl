@@ -10,4 +10,5 @@ netsuite.account Purchase_Orders@s {
   ]
   revalue = false
   identifier = "Purchase Orders"
+  inventory = false
 }

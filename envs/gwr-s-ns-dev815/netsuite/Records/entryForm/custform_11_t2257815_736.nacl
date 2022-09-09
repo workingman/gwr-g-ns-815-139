@@ -516,7 +516,7 @@ netsuite.entryForm custform_11_t2257815_736 {
       ENTITYADDRESS = {
         id = "ENTITYADDRESS"
         label = "Address"
-        visible = false
+        visible = true
         subItems = {
           subList = {
             ENTITYADDRESSBOOK = {

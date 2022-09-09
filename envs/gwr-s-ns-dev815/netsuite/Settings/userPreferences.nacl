@@ -192,4 +192,5 @@ netsuite.userPreferences {
     value = "1"
     text = "Primary Accounting Book"
   }
+  DO_NOT_CALCULATE_CUSTOMER_BALANCES = false
 }

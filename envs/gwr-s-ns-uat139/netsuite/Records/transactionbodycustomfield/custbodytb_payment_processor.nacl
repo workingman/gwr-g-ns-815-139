@@ -36,4 +36,6 @@ netsuite.transactionbodycustomfield custbodytb_payment_processor {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  bodyinventoryadjustment = false
+  bodytransferorder = false
 }

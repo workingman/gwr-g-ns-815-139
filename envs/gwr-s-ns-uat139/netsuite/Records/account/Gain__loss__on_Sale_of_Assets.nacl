@@ -10,4 +10,5 @@ netsuite.account Gain__loss__on_Sale_of_Assets@sjkssss {
   ]
   revalue = false
   identifier = "Gain (loss) on Sale of Assets"
+  inventory = false
 }

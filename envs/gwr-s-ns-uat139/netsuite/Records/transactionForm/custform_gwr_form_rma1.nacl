@@ -1042,6 +1042,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 5
+                  }
                 }
                 index = 0
               }
@@ -1276,6 +1286,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         id = "NETSUITE_SUPPORT_CENTER"
         preferred = false
         index = 6
+      }
+      customrole1178 = {
+        id = netsuite.role.instance.customrole1178.scriptid
+        preferred = false
+        index = 7
+      }
+      customrole_simon_test = {
+        id = netsuite.role.instance.customrole_simon_test.scriptid
+        preferred = false
+        index = 8
       }
     }
   }

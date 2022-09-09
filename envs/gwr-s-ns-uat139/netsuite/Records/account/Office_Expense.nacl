@@ -10,4 +10,5 @@ netsuite.account Office_Expense@s {
   ]
   revalue = false
   identifier = "Office Expense"
+  inventory = false
 }

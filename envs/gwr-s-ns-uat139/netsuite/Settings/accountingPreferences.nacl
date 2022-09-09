@@ -26,7 +26,7 @@ netsuite.accountingPreferences {
   REMOVECLIENTGOVERNANCELIMIT = false
   UNRECEIVEDRTNAUTHS = false
   PERFORMLIMITCHECKONAPPROVALACTION = false
-  TIMEJEGROUPBYEMPLOYEE = false
+  
   VENDPYMTTOPRINT = false
   COPYTIMESHEETOPTIONS = {
     value = "ALWAYSCOPYHOURSANDMEMOS"
@@ -34,14 +34,9 @@ netsuite.accountingPreferences {
   }
   TIMEEXPENSEJOBSONLY = false
   UNIFIEDGOVERNANCELIMIT = 1000
-  categoriesselectLABOR = [
-    {
-      value = ""
-      text = ""
-    },
-  ]
+  
   RECREATEREVRECSCHEDULES = false
-  SUPPLIER = "group"
+  
   CUSTOMAPPROVALJOURNAL = false
   FORECASTINCLUDES_REIMB_EXP = true
   SHOWADDLITEMSPACKSLIP = {
@@ -49,7 +44,7 @@ netsuite.accountingPreferences {
     text = "None"
   }
   COPYSERVITEMDESCTOMEMO = true
-  LABOR = "group"
+  
   CUSTOMAPPROVALVENDORBILL = false
   CUSTOMCOSTING = false
   DEFVENDBILLSTATUS = {
@@ -149,7 +144,7 @@ netsuite.accountingPreferences {
   CUSTOM_SEGMENT_DELETION = false
   OPENONLYSTMTS = false
   LOGUERECORDSYNCH = false
-  EXPENSE = "group"
+  
   DEPTMANDATORY = false
   DEFRTNAUTHSTATUS = {
     value = "A"
@@ -157,12 +152,7 @@ netsuite.accountingPreferences {
   }
   VALIDATE_SAME_PO_VENDOR_IN_BILL = true
   UNRECEIVEDBILLS = false
-  categoriesselectEXPENSE = [
-    {
-      value = ""
-      text = ""
-    },
-  ]
+  
   FULFILLCOMMITTED = {
     value = "ALLOWUNCOMMITTED"
     text = "Allow Uncommitted"
@@ -170,7 +160,7 @@ netsuite.accountingPreferences {
   CUSTCREDLIMORDERS = false
   RECONCILIATIONALLTRANTYPES = false
   REQUIRETIMEFORWORKINGDAYS = false
-  LOCSPERLINE = true
+  
   EXPENSEACCOUNT = {
     value = "76"
     text = "Miscellaneous Expense"
@@ -192,9 +182,9 @@ netsuite.accountingPreferences {
   ACCOUNTNUMBERS = false
   LIMITITEMVENDORS = true
   UNSHIPPEDINVOICES = false
-  TIMEJEGROUPBYLOCATION = false
+  
   REVERSALVOIDING = true
-  TIMEJEGROUPBYPROJECT = true
+  
   ALLOW_PERIODS_QUICK_CLOSE = false
   ENFORCE_MIN_QUANTITY_RET_AUTH = true
   EDITITEMACCOUNTS = true
@@ -285,7 +275,7 @@ netsuite.accountingPreferences {
     value = "DONOTLOG"
     text = ""
   }
-  TIMEJEGROUPBYDEPARTMENT = false
+  
   EXTERNALPAYMENTS = true
   AUTOMATICITEMCOMMITMENT = true
   QTYPRICESCHEDULEMULTDISCOUNTS = false
@@ -301,12 +291,7 @@ netsuite.accountingPreferences {
     text = "Basic UOM Mismatch Checks"
   }
   ENABLEITEMAVAILABILITYTRACKING = true
-  categoriesselectSUPPLIER = [
-    {
-      value = ""
-      text = ""
-    },
-  ]
+  
   MAXPURCHASES = 0
   VALIDATE_LOT_AVAIL_QTY_AT_COMMIT = false
   SHOW_WARN_TAX_RECEIPT = true
@@ -341,7 +326,7 @@ netsuite.accountingPreferences {
     value = "DISABLED"
     text = "Disabled"
   }
-  USEHEADERLOCFORLINE = true
+  
   SALESTRANTYPES = [
     {
       value = "Check"
@@ -384,5 +369,67 @@ netsuite.accountingPreferences {
     value = "FXRATE"
     text = "Recalculate Exchange Rate"
   }
-  TIMEJEGROUPBYCLASS = false
+  
+  DEFAULTTRANSFERORDERCOMMITOPTION = {
+    value = "1"
+    text = "Available Qty"
+  }
+  ENABLEINVENTORYDEMANDTRACKING = true
+  DEFAULT_TRNFRORD_INCOTERM = {
+    value = "1"
+    text = "DAP"
+  }
+  ACCOUNTINGPERIODS = false
+  ALLOCATION_AUTO_FIX_DATA = true
+  INVT_TRANS_CLOSED_PERIODS = false
+  USE_DELAYED_TRIGGER_INVENTORY = true
+  USEINVENTORYCOSTINGSTRICTVALIDATION = false
+  ASSETACCOUNT = {
+    value = "10"
+    text = "Inventory"
+  }
+  DONTTRACKITEMCOUNT = false
+  DELAYEDTRIGGERCOMMITMENT = false
+  ALLOW_CLOSED_PERIOD_COSTING_CHANGES = false
+  RETURNCOSTDEFAULT = {
+    value = "LOCALAVG"
+    text = "Local Average"
+  }
+  INV_COSTING_DELAYED_START = true
+  ITEMVERSION = true
+  BYPASS_ALLOCATION_DATA_FIX = false
+  COGSACCOUNT = {
+    value = "55"
+    text = "Purchases"
+  }
+  INVT_TRANS_DATE_PERIOD_MISMATCH = false
+  ENABLEINVFUTURESUPPLYTRACKING = true
+  CACHE_ITEM_LOCATION_MAP = false
+  ALLOW_COSTING_ENGINE_TO_RUN = true
+  MAXITEMSONQUICKDISTRIBUTION = 0
+  BULKFULFILLLOCFILTERING = true
+  ZEROCOSTUNDERWATER = false
+  NO_PRE_DISTRIB_LOCATIONS = false
+  INCLUDEINTRANSITACCOUNT = false
+  ENABLEINVINSTOCKSUPPLYTRACKING = true
+  DEFTRNFRORDSTATUS = {
+    value = "FIRMPENDINGAPPROVAL"
+    text = "Pending Approval Firm"
+  }
+  NEWCOSTINGFLAGGING = false
+  CENTRALIZEDPURCHASING = false
+  ALLOCATION_WORK_QUEUE_THREAD_LIMIT = 25
+  INVENTORYCOSTINGMAXLINESTOLOAD = 25000
+  INVENTORY_COSTING_LOG_LEVEL = 1
+  OVERTRANSFERS = false
+  ENABLEINVENTORYALLOCATIONTRACKING = true
+  USETXMGMTFORREVALUESTDCOSTINV = false
+  MAX_ITEM_COMMITMENT_CONTEXT_LINES = 100000
+  ITEMCOSTASTRNFRORDCOST = true
+  ALLOWZEROQUANTITYINVADJST = false
+  INVTCOSTMETHOD = {
+    value = "AVG"
+    text = "Average"
+  }
+  ENABLEINVDEMANDSUPPLYTRACKING = true
 }

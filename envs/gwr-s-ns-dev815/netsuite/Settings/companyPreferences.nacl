@@ -15,7 +15,7 @@ netsuite.companyPreferences {
     value = "0"
     text = "2.0"
   }
-  custscript_lsa_primary_sales_rep = false
+  
   HORIZONTALLABEL = false
   CALENDARSYSTEM = {
     value = "Gregorian"
@@ -26,8 +26,8 @@ netsuite.companyPreferences {
     text = "Month D, YYYY"
   }
   BANK_IMPORT_SCHEDULE_MIN_TIME = 400
-  custscript_lsa_message = false
-  custscript_lsa_marketingcampaign = false
+  
+  
   MAXDROPDOWNSIZE = 200
   MAXREPORTROWS_BACKEND = 1000000
   LASTNAMEFIRST = false
@@ -39,18 +39,15 @@ netsuite.companyPreferences {
   FC_UI_HIDE_HIERARCHY_FOLDER_INFO = false
   LASTNAMEFIRSTENTITIES = false
   INACTIVATE_CONTACTS = false
-  CUSTOMLANDINGPAGE = {
-    value = "-1"
-    text = ""
-  }
+  
   TIMEFORMAT = {
     value = "h:mm a"
     text = "hh:mm AM/PM"
   }
   CONTACTONBILLTO = true
   ALLOWLANGUAGE_XX_US = false
-  custscript_lsa_enable_manual_update = false
-  custscript_lsa_activity_days_filter = 7
+  
+  
   MAXREPORTROWS = 100000
   IDLE_SESSION_TIMEOUT = 180
   FIRSTDAYOFWEEK = {
@@ -80,9 +77,9 @@ netsuite.companyPreferences {
   LOGSYSTEMNOTESONUPDATEONLY = false
   UNRESTRICTED_SEARCH_FORMULA_FIELDS = true
   RATING_ENGINE_YEAR_LIMIT = 50
-  custscript_lsa_task_completed = false
+  
   LISTSEGMENTSIZE = 50
-  custscript_lsa_task = false
+  
   SHOWLISTONERESULT = false
   HIDEATTACHMENTFOLDERS = false
   MAXREPORTDIMENSIONS = 200
@@ -91,17 +88,17 @@ netsuite.companyPreferences {
   LEGACY_SUBSID_RESTRICTIONS = false
   ALLOWLANGUAGE_ES_AR_ONLQA = false
   ALLOWCREATINGPOLYMORPHICEMPLOYEES = false
-  custscript_lsa_event_completed = false
+  
   DELAYLOADINGSUBLISTS = true
-  custscript_lsa_phonecall_completed = false
+  
   NEWUSERLINKEXPIRATION = 24
-  custscript_lsa_task_note = false
+  
   NUMBERFORMAT = {
     value = "0"
     text = "1,000,000.00"
   }
   MAXPLANNEDTIMEPERPROJECTASSIGNMENT = 260
-  custscript_lsa_task_event = false
+  
   CUSTOMERSHOWHELPLINK = true
   INTERNALWEBSITE = {
     value = "1"
@@ -141,7 +138,7 @@ netsuite.companyPreferences {
   INTERCO_ORDER_GENERATION_BULK = true
   ITEMNUMBERING = false
   ABBREVIATESTATES = true
-  custscript_lsa_phonecall = false
+  
   TIMESELECTORSUSEFIRSTFISCALMONTH = true
   COMPANYLOGOFOLDER = {
     value = "-4"

@@ -10,4 +10,5 @@ netsuite.account Partner__1_Drawing@sns {
   ]
   revalue = false
   identifier = "Partner #1 Drawing"
+  inventory = false
 }

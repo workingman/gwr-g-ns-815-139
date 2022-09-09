@@ -10,4 +10,5 @@ netsuite.account Note_Receivable_Current@sb {
   ]
   revalue = false
   identifier = "Note Receivable-Current"
+  inventory = false
 }

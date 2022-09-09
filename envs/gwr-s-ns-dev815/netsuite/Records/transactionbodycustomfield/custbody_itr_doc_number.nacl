@@ -37,4 +37,5 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  description = "New description 202209091137"
 }

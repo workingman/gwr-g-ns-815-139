@@ -11,4 +11,5 @@ netsuite.account Insurance_Expense_Disability@su {
   ]
   revalue = false
   identifier = "Insurance Expense_Disability"
+  inventory = false
 }

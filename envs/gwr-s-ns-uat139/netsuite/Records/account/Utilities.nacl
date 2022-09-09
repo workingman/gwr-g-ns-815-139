@@ -10,4 +10,5 @@ netsuite.account Utilities {
   ]
   revalue = false
   identifier = "Utilities"
+  inventory = false
 }

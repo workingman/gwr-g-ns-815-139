@@ -10,4 +10,5 @@ netsuite.account Repairs___Maintenance@ses {
   ]
   revalue = false
   identifier = "Repairs & Maintenance"
+  inventory = false
 }

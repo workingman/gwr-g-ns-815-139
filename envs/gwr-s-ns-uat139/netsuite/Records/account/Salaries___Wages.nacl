@@ -10,4 +10,5 @@ netsuite.account Salaries___Wages@ses {
   ]
   revalue = false
   identifier = "Salaries & Wages"
+  inventory = false
 }

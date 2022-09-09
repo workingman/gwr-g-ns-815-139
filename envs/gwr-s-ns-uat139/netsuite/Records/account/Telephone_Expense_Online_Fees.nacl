@@ -11,4 +11,5 @@ netsuite.account Telephone_Expense_Online_Fees@sus {
   ]
   revalue = false
   identifier = "Telephone Expense_Online Fees"
+  inventory = false
 }

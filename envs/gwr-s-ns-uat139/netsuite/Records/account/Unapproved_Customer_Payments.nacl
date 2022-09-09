@@ -10,4 +10,5 @@ netsuite.account Unapproved_Customer_Payments@s {
   ]
   revalue = false
   identifier = "Unapproved Customer Payments"
+  inventory = false
 }

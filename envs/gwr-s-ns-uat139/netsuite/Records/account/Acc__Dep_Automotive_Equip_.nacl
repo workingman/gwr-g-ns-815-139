@@ -10,4 +10,5 @@ netsuite.account Acc__Dep_Automotive_Equip_@vsbsv {
   ]
   revalue = false
   identifier = "Acc. Dep-Automotive Equip."
+  inventory = false
 }

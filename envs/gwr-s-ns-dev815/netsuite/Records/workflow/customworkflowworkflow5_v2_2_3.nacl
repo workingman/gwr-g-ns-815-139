@@ -6,7 +6,7 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
   isinactive = false
   islogenabled = true
   keephistory = "ALWAYS"
-  name = "xGWR Amp inactive"
+  name = "GWR Amp |SO Approval V2 - for prod 2 23"
   recordtypes = "SALESORDER"
   releasestatus = "RELEASED"
   runasadmin = true
@@ -289,7 +289,7 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 label = "Approve"
                 saverecordfirst = false
                 initcondition = {
-                  formula = "\"User Role\" IN (\"Role1\",\"Role2\",\"Role3\",\"Role4\",\"Role5\")"
+                  formula = "\"User Role\" IN (\"Role1\",\"Role2\",\"Role3\",\"Role4\",\"Role5\") AND \"User\" IN (\"Current User\")"
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {
@@ -327,6 +327,17 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole_gwr_role_acct.scriptid
                         index = 5
+                      }
+                      User = {
+                        name = "User"
+                        value = "STDUSERUSER"
+                        index = 6
+                      }
+                      Current_User@s = {
+                        name = "Current User"
+                        selectrecordtype = "-4"
+                        value = "@CURRENTUSER@"
+                        index = 7
                       }
                     }
                   }
@@ -422,7 +433,7 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 valuechecked = true
                 valuetype = "STATIC"
                 initcondition = {
-                  formula = "\"Total\" >= 999999.00"
+                  formula = "\"Total\" > 99999999.00"
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {

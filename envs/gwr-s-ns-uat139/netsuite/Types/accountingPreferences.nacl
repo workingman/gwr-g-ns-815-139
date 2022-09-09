@@ -59,10 +59,7 @@ settings netsuite.accountingPreferences {
     label = "Default Payment Account"
     type = "select"
   }
-  netsuite.selectOption JOBCOSTVARIANCEACCOUNT {
-    label = "Default Job Cost Variance Account"
-    type = "select"
-  }
+  
   boolean CCSECURITYCODE {
     label = "Use Card Security Code for Credit Card Transactions"
     type = "checkbox"
@@ -107,10 +104,7 @@ settings netsuite.accountingPreferences {
     label = "Perform limit check on approval action"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYEMPLOYEE {
-    label = "Employee"
-    type = "checkbox"
-  }
+  
   netsuite.selectOption COPYTIMESHEETOPTIONS {
     label = "Copy from Week Options"
     type = "select"
@@ -131,18 +125,12 @@ settings netsuite.accountingPreferences {
     label = "sales Account"
     type = "select"
   }
-  "List<netsuite.selectOption>" categoriesselectLABOR {
-    label = ""
-    type = "multiselect"
-  }
+  
   boolean RECREATEREVRECSCHEDULES {
     label = "Recreate Rev Rec Schedules"
     type = "checkbox"
   }
-  string SUPPLIER {
-    label = "Show only selected supplier items as individual categories (max 100)"
-    type = "radio"
-  }
+  
   boolean CUSTOMAPPROVALJOURNAL {
     label = "Journal Entries"
     type = "checkbox"
@@ -159,10 +147,7 @@ settings netsuite.accountingPreferences {
     label = "Copy Service Item Description to Time memo"
     type = "checkbox"
   }
-  string LABOR {
-    label = "Show only selected service items as individual categories (max 100)"
-    type = "radio"
-  }
+  
   boolean CUSTOMAPPROVALVENDORBILL {
     label = "Vendor Bills"
     type = "checkbox"
@@ -415,10 +400,7 @@ settings netsuite.accountingPreferences {
     label = "Default Advance to Apply Account for Expense Reports"
     type = "select"
   }
-  string EXPENSE {
-    label = "Show only selected expense categories as individual categories (max 100)"
-    type = "radio"
-  }
+  
   boolean DEPTMANDATORY {
     label = "Make Departments Mandatory"
     type = "checkbox"
@@ -435,10 +417,7 @@ settings netsuite.accountingPreferences {
     label = "Bill in Advance of Receipt"
     type = "checkbox"
   }
-  "List<netsuite.selectOption>" categoriesselectEXPENSE {
-    label = ""
-    type = "multiselect"
-  }
+  
   netsuite.selectOption FULFILLCOMMITTED {
     label = "Fulfill Based on Commitment"
     type = "select"
@@ -463,10 +442,7 @@ settings netsuite.accountingPreferences {
     label = "Default Expense Account"
     type = "select"
   }
-  boolean LOCSPERLINE {
-    label = "Allow Per-Line Locations"
-    type = "checkbox"
-  }
+  
   netsuite.selectOption TIMELIMITWEEKMINACTION {
     label = "Action"
     type = "select"
@@ -507,18 +483,12 @@ settings netsuite.accountingPreferences {
     label = "Invoice in Advance of Fulfillment"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYLOCATION {
-    label = "Location"
-    type = "checkbox"
-  }
+  
   boolean REVERSALVOIDING {
     label = "Void Transactions Using Reversing Journals"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYPROJECT {
-    label = "Job"
-    type = "checkbox"
-  }
+  
   boolean ALLOW_PERIODS_QUICK_CLOSE {
     label = "Allow Quick Close of Accounting Periods"
     type = "checkbox"
@@ -695,10 +665,7 @@ settings netsuite.accountingPreferences {
     label = "Send level 3 data with authorisation request to Cybersource when decision manager enabled"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYDEPARTMENT {
-    label = "Department"
-    type = "checkbox"
-  }
+  
   boolean AUTOMATICITEMCOMMITMENT {
     label = "Perform Item Commitment After Transaction Entry"
     type = "checkbox"
@@ -735,10 +702,7 @@ settings netsuite.accountingPreferences {
     label = "SCM: Inventory: Commitment: Item Availability Tracking"
     type = "checkbox"
   }
-  "List<netsuite.selectOption>" categoriesselectSUPPLIER {
-    label = ""
-    type = "multiselect"
-  }
+  
   number MAXPURCHASES {
     label = "Maximum Purchase Lines to Consolidate"
     type = "integer"
@@ -859,10 +823,7 @@ settings netsuite.accountingPreferences {
     label = "Minimum Period Window Size"
     type = "integer"
   }
-  boolean USEHEADERLOCFORLINE {
-    label = "Use Header Location as Default Line Item Value"
-    type = "checkbox"
-  }
+  
   "List<netsuite.selectOption>" SALESTRANTYPES {
     label = "Transaction Types to Exclude from Sales Reports"
     type = "multiselect"
@@ -899,12 +860,189 @@ settings netsuite.accountingPreferences {
     label = "Foreign Amount Change"
     type = "select"
   }
-  boolean TIMEJEGROUPBYCLASS {
-    label = "Class"
-    type = "checkbox"
-  }
+  
   string configType {
     _required = true
     _hidden_value = true
+  }
+  netsuite.selectOption DEFAULTTRANSFERORDERCOMMITOPTION {
+    label = "Default commit option on transfer order"
+    type = "select"
+  }
+  boolean ENABLEINVENTORYDEMANDTRACKING {
+    label = "SCM: Inventory: Commitment: Enable Inventory Demand Table Tracking"
+    type = "checkbox"
+  }
+  netsuite.selectOption DEFAULT_TRNFRORD_INCOTERM {
+    label = "Default Transfer Order Incoterms"
+    type = "select"
+  }
+  boolean ACCOUNTINGPERIODS {
+    label = "SCM: Inventory: Ignore Closing Period When Updating G/L Accounts"
+    type = "checkbox"
+  }
+  number INITIALCOSTINGQUEUEMAXSIZE {
+    label = "SCM: Inventory: Costing: Maximum number of lines to load into initial costing queue"
+    type = "integer"
+  }
+  boolean ALLOCATION_AUTO_FIX_DATA {
+    label = "Enable auto data fix up for Supply Allocation Migration"
+    type = "checkbox"
+  }
+  boolean INVT_TRANS_CLOSED_PERIODS {
+    label = "Create and edit inventory transactions dated in closed periods"
+    type = "checkbox"
+  }
+  boolean USE_DELAYED_TRIGGER_INVENTORY {
+    label = "Use delayed trigger inventory management"
+    type = "checkbox"
+  }
+  boolean USEINVENTORYCOSTINGSTRICTVALIDATION {
+    label = "Perform strict validation in inventory costing 2.0"
+    type = "checkbox"
+  }
+  netsuite.selectOption ASSETACCOUNT {
+    label = "Default Asset Account"
+    type = "select"
+  }
+  boolean DONTTRACKITEMCOUNT {
+    label = "Do not track item on hand counts in parallel"
+    type = "checkbox"
+  }
+  boolean DELAYEDTRIGGERCOMMITMENT {
+    label = "Use Delayed Triggers for Inventory Commitment"
+    type = "checkbox"
+  }
+  boolean ALLOW_CLOSED_PERIOD_COSTING_CHANGES {
+    label = "SCM: Inventory: Costing: Allow the costing engine to make changes in closed periods and generate reversing journal entries"
+    type = "checkbox"
+  }
+  netsuite.selectOption RETURNCOSTDEFAULT {
+    label = "Default cost for inventory items on unlinked returns"
+    type = "select"
+  }
+  boolean INV_COSTING_DELAYED_START {
+    label = "SCM: Inventory: Costing: Whether or not to delay the start of inventory costing to allow for afterSubmit events to process."
+    type = "checkbox"
+  }
+  boolean ITEMVERSION {
+    label = "Enable item version"
+    type = "checkbox"
+  }
+  boolean BYPASS_ALLOCATION_DATA_FIX {
+    label = "Bypass Allocation Data Migration Verification"
+    type = "checkbox"
+  }
+  netsuite.selectOption COGSACCOUNT {
+    label = "Default COGS Account"
+    type = "select"
+  }
+  netsuite.selectOption GAINLOSSACCOUNT {
+    label = "Default Gain/Loss Account"
+    type = "select"
+  }
+  boolean INVT_TRANS_DATE_PERIOD_MISMATCH {
+    label = "Allow Inventory Transactions Dated Outside the Posting Period"
+    type = "checkbox"
+  }
+  netsuite.selectOption VENDRETURNVARIANCEACCOUNT {
+    label = "Default Vendor Return Variance Account"
+    type = "select"
+  }
+  boolean ENABLEINVFUTURESUPPLYTRACKING {
+    label = "SCM: Inventory: Commitment: Enable Inventory Future Supply Table Tracking"
+    type = "checkbox"
+  }
+  boolean CACHE_ITEM_LOCATION_MAP {
+    label = "Whether or not to cache ItemLocationMap and check if there are changing before updating."
+    type = "checkbox"
+  }
+  boolean ALLOW_COSTING_ENGINE_TO_RUN {
+    label = "SCM: Inventory: Costing: Allow the costing engine to run"
+    type = "checkbox"
+  }
+  number MAXITEMSONQUICKDISTRIBUTION {
+    label = "SCM: Inventory: Costing: Maximum number of items on a quick distribution"
+    type = "integer"
+  }
+  boolean BULKFULFILLLOCFILTERING {
+    label = "Filter Bulk Fulfillment Page by Location"
+    type = "checkbox"
+  }
+  boolean ZEROCOSTUNDERWATER {
+    label = "Use Zero Cost for Linked Underwater Sales"
+    type = "checkbox"
+  }
+  boolean INCLUDEINTRANSITACCOUNT {
+    label = "Include In-Transit Account"
+    type = "checkbox"
+  }
+  boolean NO_PRE_DISTRIB_LOCATIONS {
+    label = "SCM: Inventory: Costing: No Pre-Distribution Locations"
+    type = "checkbox"
+  }
+  boolean ENABLEINVINSTOCKSUPPLYTRACKING {
+    label = "SCM: Inventory: Commitment: Enable Inventory In Stock Supply Table Tracking"
+    type = "checkbox"
+  }
+  netsuite.selectOption DEFTRNFRORDSTATUS {
+    label = "Default Transfer Order Status"
+    type = "select"
+  }
+  boolean NEWCOSTINGFLAGGING {
+    label = "Non-trigger based flagging for costing."
+    type = "checkbox"
+  }
+  boolean CENTRALIZEDPURCHASING {
+    label = "Centralize Purchasing in a Single Location"
+    type = "checkbox"
+  }
+  number ALLOCATION_WORK_QUEUE_THREAD_LIMIT {
+    label = "Maximum number of threads to be used for Legacy Supply Allocation Work Queue Item"
+    type = "integer"
+  }
+  number INVENTORYCOSTINGMAXLINESTOLOAD {
+    label = "SCM: Inventory: Costing: Maximum number of lines to load in inventory costing 2.0"
+    type = "integer"
+  }
+  number INVENTORY_COSTING_LOG_LEVEL {
+    label = "SCM: Inventory: Costing: Default Log Level (0=Error, 1=Information, 2=Debug)"
+    type = "integer"
+  }
+  boolean OVERTRANSFERS {
+    label = "SCM: Inventory: Allow Overage on Transfer Order Fulfillments"
+    type = "checkbox"
+  }
+  boolean ENABLEINVENTORYALLOCATIONTRACKING {
+    label = "SCM: Inventory: Commitment: Enable Inventory Allocation Table Tracking"
+    type = "checkbox"
+  }
+  boolean USETXMGMTFORREVALUESTDCOSTINV {
+    label = "Use Transaction Management for Revalue Standard Cost Inventory"
+    type = "checkbox"
+  }
+  number MAX_ITEM_COMMITMENT_CONTEXT_LINES {
+    label = "SCM: Inventory: Commitment: Maximum number of lines to load into item commitment context"
+    type = "integer"
+  }
+  netsuite.selectOption CUSTOMERRETURNVARIANCEACCOUNT {
+    label = "Default Customer Return Variance Account"
+    type = "select"
+  }
+  boolean ITEMCOSTASTRNFRORDCOST {
+    label = "Use Item Cost as Transfer Cost"
+    type = "checkbox"
+  }
+  boolean ALLOWZEROQUANTITYINVADJST {
+    label = "SCM: Inventory: Costing: Allow Zero Quantity Inventory Adjustments"
+    type = "checkbox"
+  }
+  netsuite.selectOption INVTCOSTMETHOD {
+    label = "Inventory Costing Method"
+    type = "select"
+  }
+  boolean ENABLEINVDEMANDSUPPLYTRACKING {
+    label = "SCM: Inventory: Commitment: Enable Inventory Demand and Inventory Supply Table Tracking"
+    type = "checkbox"
   }
 }

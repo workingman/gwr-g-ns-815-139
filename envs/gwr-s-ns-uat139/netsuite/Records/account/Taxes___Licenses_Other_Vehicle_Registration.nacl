@@ -11,4 +11,5 @@ netsuite.account Taxes___Licenses_Other_Vehicle_Registration@sesbus {
   ]
   revalue = false
   identifier = "Taxes & Licenses-Other_Vehicle Registration"
+  inventory = false
 }

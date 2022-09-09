@@ -10,4 +10,5 @@ netsuite.account Current_Portion_Long_Term_Debt@ssbs {
   ]
   revalue = true
   identifier = "Current Portion Long-Term Debt"
+  inventory = false
 }
